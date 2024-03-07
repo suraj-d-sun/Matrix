@@ -1,0 +1,9 @@
+path=c:\windows;c:\windows\system32;c:\mingw-libjpg\MinGW\bin
+
+g++ eg1.cpp -I c:\mingw-libjpg\MinGW\include -ljpeg -o eg1.exe
+
+eg1 c:\images\animal.jpg
+
+sudo apt-get install libjpeg-dev
+
+gcc eg1.c -ljpeg -o eg1.out

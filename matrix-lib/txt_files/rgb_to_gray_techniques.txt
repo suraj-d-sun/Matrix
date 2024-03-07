@@ -1,0 +1,30 @@
+
+
+Luminosity Method:
+Y = 0.299*R + 0.587*G + 0.114*B
+It takes into account human perception of color intensity, with the coefficients 0.299, 0.587, and 0.114 representing the perceived brightness of the red, green, and blue colors respectively.
+
+
+Average Method:
+Y = (R + G + B) / 3
+This method simply calculates the average of the RGB values to determine the grayscale intensity.
+
+
+Lightness Method:
+Y = (max(R, G, B) + min(R, G, B)) / 2
+It takes the average of the maximum and minimum RGB values. It aims to preserve both dark and light regions in the image.
+
+
+Desaturation Method:
+Y = (max(R, G, B) + min(R, G, B)) / 2
+
+
+Channel Mixing:
+Y = wR*R + wG*G + wB*B
+It involves applying weights (wR, wG, wB) to the red, green, and blue channels respectively to compute the grayscale intensity. The weights can be chosen based on desired effects or perceptual considerations.
+
+
+Decomposition:
+This method uses techniques like Principal Component Analysis (PCA) to decompose the RGB image into its principal components, with one of them representing the grayscale version of the image. The mathematics involved in PCA includes eigenvalue decomposition and matrix operations.
+
+

@@ -1,0 +1,9 @@
+1. Strassen algorithm
+2. Coppersmith-Winograd algorithm
+3. Break down the matrices into smaller submatrices
+4. Multi-threading
+5. SIMD(Single Instruction Multiple Data)
+6. Divide into multiple core
+7. Low-rank approximation Technique
+8. Sparse Matrix Representation Technique
+9. Fast Fourier Transform (FFT) method
