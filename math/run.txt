@@ -1,0 +1,1 @@
+gcc bilinear_interpolation.c -I c:\mingw-lib\MinGW\include -I ..\matrix-lib -ljpeg -lm -o bilinear_interpolation.exe
